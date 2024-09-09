@@ -19,7 +19,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tkngaejcpi/remark-replace-chinese-dash"
+		"url": "git+https://github.com/tkngaejcpi/remark-replace-chinese-dash.git"
 	},
 	"bugs": {
 		"url": "https://github.com/tkngaejcpi/remark-replace-chinese-dash/issues",
