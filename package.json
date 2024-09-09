@@ -1,0 +1,43 @@
+{
+	"name": "@rileycki3333/remark-replace-chinese-dash",
+	"description": "a remark plugin that replaces double `—` (U+2014 EM DASH) into `⸺` (U+2E3A TWO-EM DASH)",
+	"license": "Apache-2.0",
+	"version": "1.0.0",
+	"author": {
+		"name": "Riley Chang",
+		"email": "rileycki3333@gmail.com"
+	},
+	"keywords": [
+		"unified",
+		"remark",
+		"plugin",
+		"syntax",
+		"tree",
+		"markdown",
+		"unicode",
+		"typography"
+	],
+	"main": "./index.js",
+	"type": "module",
+	"scripts": {
+		"test": "node ./test.js",
+		"fmt": "prettier ./index.js ./lib/**/*.js -w"
+	},
+	"dependencies": {
+		"unist-util-visit": "^5.0.0"
+	},
+	"devDependencies": {
+		"@types/mdast": "^4.0.4",
+		"@types/node": "^22.5.4",
+		"prettier": "^3.3.3",
+		"rehype-stringify": "^10.0.0",
+		"remark-parse": "^11.0.0",
+		"remark-rehype": "^11.1.0",
+		"unified": "^11.0.5"
+	},
+	"prettier": {
+		"useTabs": true,
+		"semi": true,
+		"singleQuote": true
+	}
+}
