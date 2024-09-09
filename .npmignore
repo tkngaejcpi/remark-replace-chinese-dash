@@ -1,0 +1,11 @@
+# package
+pnpm-lock.yaml
+node_modules/
+
+# for dev
+test.js
+
+# chore
+.gitignore
+LICENSE
+README.md

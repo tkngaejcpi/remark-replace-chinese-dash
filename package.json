@@ -17,6 +17,14 @@
 		"unicode",
 		"typography"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tkngaejcpi/remark-replace-chinese-dash"
+	},
+	"bugs": {
+		"url": "https://github.com/tkngaejcpi/remark-replace-chinese-dash/issues",
+		"email": "rileycki3333@gmail.com"
+	},
 	"main": "./index.js",
 	"type": "module",
 	"scripts": {
